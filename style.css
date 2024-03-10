@@ -1,0 +1,137 @@
+
+
+
+.social-graph-wrapper {
+    text-align: center;
+    padding: 1rem 1.25rem 0.2rem  1.25rem;
+    position: relative;
+    color: #fff;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.social-graph-wrapper .s-icon {
+    font-size: 1.5rem;
+    position: relative;
+    padding: 0 0.625rem;
+    color: black;
+}
+.social-graph-wrapper img{
+    width: 200px;
+    height: auto;
+}
+
+.disabled{
+    color: lightgrey;
+}
+
+.brand_detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description h4{
+    font-size: 20px;
+}
+
+.description p{
+    font-size: 17px;
+}
+
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 3px;
+    width: 130px;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    background: #00a9ec;
+  }
+
+  .products_main{
+    background: #00a9ec;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: row;
+  }
+
+  .products_category{
+    width: 350px;
+   text-align: center;
+    
+}
+
+
+.products_icon{
+  width: 50px;
+    /* border: 1px solid gray;
+  box-shadow: 1px 1px 1px 1px; */
+  background-color: white;
+  color: #00a9ec;
+    height: 50px;
+    border-radius: 50px ;
+    margin: auto;
+   
+    
+}
+.products_icon i{
+    padding: 17px;
+}
+
+.products_category p{
+    color: white;
+}
+
+.products_category a{
+    color: white;
+    font-size: 13px;
+   
+}
+
+.cancel_btn{
+    background-color: white;
+    color: #00a9ec;
+    border: 2px solid #00a9ec;
+    width: 100px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.cart_btn{
+    background-color: #00a9ec;
+    color: white;
+    border: 2px solid #00a9ec;
+    width: 100px;
+    padding: 4px;
+    border-radius: 3px;
+    
+}
+
+
+
+
+  @media screen and (max-width:990px)  {
+    .hr-lines:before{
+      
+        top: 13%;
+        
+      }
+  }
+
+  @media screen and (max-width:768px){
+    .hr-lines:before{
+       
+        top: 12%;
+       
+      }
+    
+  }
+
+  @media screen and (max-width:540px) {
+    .hr-lines:before{
+      
+        top: 10%;
+      
+      }
+  }
